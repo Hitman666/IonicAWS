@@ -7,12 +7,12 @@
 
       <ion-item>
         <ion-label floating>Username</ion-label>
-        <ion-input [(ngModel)]="loginDetails.username" type="text" autocorrect="off" autocapitalize="none" name="username"></ion-input>
+        <ion-input [(ngModel)]="loginDetails.username" type="text" autocorrect="off" autocapitalize="none" name="username" required></ion-input>
       </ion-item>
 
       <ion-item>
         <ion-label floating>Password</ion-label>
-        <ion-input [(ngModel)]="loginDetails.password" type="password" name="password"></ion-input>
+        <ion-input [(ngModel)]="loginDetails.password" type="password" name="password" required></ion-input>
       </ion-item>
 
       <div padding>
